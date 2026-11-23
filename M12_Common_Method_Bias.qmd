@@ -1,0 +1,108 @@
+---
+title: "M12 Article Review: Common Method Bias"
+subtitle: "Sources of Method Bias in Social Science Research and Recommendations on How to Control It"
+author: "Yushan Huang"
+date: "2026-11-23"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: cosmo
+    code-fold: true
+    embed-resources: true
+    smooth-scroll: true
+---
+
+## 1. Introduction and Article Overview
+
+Podsakoff, MacKenzie, and Podsakoff (2012) review the meaning, evidence, and possible remedies for method bias in social science research. Method bias matters because researchers often measure multiple variables using the same survey, respondent, or response format. In these situations, part of an observed relationship may reflect how the information was collected rather than the constructs researchers intended to study.
+
+The article is a **literature review**, not a new survey experiment. Its central questions are whether method bias affects measurement quality and relationships between constructs, when it is most likely to occur, and which preventive or statistical remedies are appropriate.
+
+## 2. Understanding Method Bias
+
+A **construct** is an abstract concept, such as customer satisfaction, trust, or purchase intention, that researchers measure using observed questions or indicators. The authors adopt a broad definition of **method**, including item wording, response formats, respondent tendencies, survey context, and timing of measurement.
+
+**Method variance** is variation attributable to measurement procedures rather than the intended construct. **Method bias** arises when such factors distort measurement properties or estimated relationships. Common method bias (CMB) is a particular concern when variables share a measurement source or procedure. Importantly, sharing a method creates a *risk* of bias; it does not automatically prove that a study's findings are biased.
+
+For example, a customer who generally agrees with statements might give high scores to both "I trust this brand" and "I intend to buy this brand." Their shared agreement tendency may contribute to the observed association beyond their actual trust and intention.
+
+## 3. Main Sources of Method Bias
+
+| Source | Explanation | Marketing research example |
+|:--|:--|:--|
+| Common respondent or source | The same person's perspective or response tendencies affect multiple measures. | Customers report both their satisfaction and intended loyalty in one survey. |
+| Response styles | Some respondents consistently agree, choose extremes, or select middle options. | A respondent selects "strongly agree" across unrelated questions. |
+| Item wording and social desirability | Ambiguous or socially sensitive questions change how people answer. | A customer overstates environmentally responsible shopping behavior. |
+| Item context and proximity | Question order and nearby items can influence later responses. | A brand-attitude question immediately precedes purchase-intention questions. |
+| Shared scale characteristics | Similar anchors or response formats may produce artificial consistency. | Every construct uses the same agreement scale with identical labels. |
+
+These sources are not equally important in every study. Researchers should identify plausible mechanisms in their specific research design instead of assuming one general method effect.
+
+## 4. How Method Bias Affects Research Findings
+
+The review distinguishes two broad consequences:
+
+1. **Distorted reliability and validity.** Method-related variation can be mistaken for meaningful construct variation, making a scale appear more reliable or valid than it really is.
+2. **Distorted relationships between constructs.** Correlations and regression estimates can be inflated, reduced, or sometimes largely unaffected. This can change hypothesis-test conclusions.
+
+The article summarizes earlier multitrait-multimethod analyses reporting that approximately **18%–32% of item variance** in the reviewed studies was attributable to method factors. This range summarizes prior research; it is **not** an estimate that applies to every questionnaire (Podsakoff et al., 2012, pp. 543–544).
+
+The authors also discuss evidence that method effects differ across items and constructs. Therefore, assuming that all variables are affected equally can be misleading.
+
+## 5. Recommendations for Controlling Method Bias
+
+### 5.1 Procedural remedies: prevent problems during study design
+
+- **Use different sources or methods when feasible.** For example, collect customer attitudes by survey and actual purchasing behavior from transaction records.
+- **Separate measures appropriately.** Temporal or questionnaire separation may reduce some contextual influences, although separation alone is not guaranteed to eliminate bias.
+- **Improve question wording.** Use simple, specific, unambiguous items and avoid double-barreled or unnecessarily complex questions.
+- **Reduce evaluation pressure and social desirability.** Design the response setting to encourage candid answers and avoid implying that one answer is preferred.
+- **Consider scale design carefully.** Different formats can reduce shared method features, but preserving construct validity is more important than varying formats for its own sake.
+
+### 5.2 Statistical remedies: assess remaining concerns
+
+| Technique | General purpose | Important limitation |
+|:--|:--|:--|
+| CFA marker-variable approach | Uses a theoretically unrelated marker construct to estimate shared method-related variation. | Requires a suitable marker and defensible assumptions. |
+| Common latent method factor | Models a shared factor affecting multiple indicators. | May capture substantive trait variance as well as method variance. |
+| Measured response-style factors | Measures tendencies such as acquiescence or extreme responding and accounts for them. | Only addresses the response styles actually measured. |
+| Instrumental-variable approach | May address some sources of endogeneity or bias under strong assumptions. | Finding a valid, sufficiently strong instrument is difficult. |
+
+**Key recommendation:** The article does not identify a universal statistical test or correction. Remedies should match the likely bias mechanism and the research question. Statistical adjustment is not a substitute for thoughtful data collection.
+
+## 6. When Is Method Bias Especially Concerning?
+
+The authors emphasize respondents' **ability** and **motivation** to answer accurately. Long, demanding, confusing, or low-engagement questionnaires can encourage respondents to use shortcuts rather than carefully evaluate each item. These conditions can increase response-style effects. The risk is also worth considering when both predictors and outcomes are measured by the same person using very similar questions.
+
+This does not mean that every self-report study is invalid. It means that researchers should explain why particular biases are plausible, document preventive steps, and assess the robustness of their conclusions.
+
+## 7. Application to Marketing Research
+
+Consider a study asking whether **brand trust predicts purchase intention**. If both constructs are measured in a single online questionnaire with identical agreement scales, the observed relationship may partly reflect agreement tendencies, common context, or similar item wording.
+
+A stronger research design could measure brand trust in a questionnaire and obtain subsequent purchasing behavior from a separate source, where possible and ethically appropriate. If purchase intention itself is the outcome of interest, researchers could separate question blocks, pilot-test wording, and consider a suitable marker or response-style measure. These choices would make the interpretation of the trust–intention relationship more credible.
+
+## 8. Key Takeaways and Reflection
+
+The most important lesson from this article is that **a statistically significant relationship is not necessarily a purely substantive relationship**. The way variables are measured can influence both individual scores and the apparent relationships among them.
+
+Three points are especially useful for future research. First, method bias is not limited to inflated correlations; its direction and magnitude depend on the setting. Second, good questionnaire design is an essential part of data quality, not merely a formatting decision. Third, researchers should combine preventive design decisions with carefully chosen statistical assessments rather than rely on a single diagnostic.
+
+For my future marketing research projects, I would pay closer attention to whether the independent and dependent variables are reported by the same respondents, whether the wording encourages patterned answers, and whether alternative data sources are available. This would help me make more cautious and defensible interpretations of survey results.
+
+## 9. Conclusion
+
+Podsakoff et al. (2012) demonstrate that method bias is a meaningful threat to measurement validity and to estimates of relationships among constructs, while also acknowledging disagreements and limitations in the evidence. The most practical implication is to **anticipate plausible sources of bias before collecting data**, apply appropriate procedural remedies, and use statistical techniques only when their assumptions fit the study.
+
+## References
+
+Podsakoff, P. M., MacKenzie, S. B., & Podsakoff, N. P. (2012). Sources of method bias in social science research and recommendations on how to control it. *Annual Review of Psychology, 63*, 539–569. https://doi.org/10.1146/annurev-psych-120710-100452
+
+## Appendix
+
+
+- **GitHub Repository:** [Add your GitHub repository URL here]
+- **GitHub Pages:** [Add your published GitHub Pages URL here]
+
+
